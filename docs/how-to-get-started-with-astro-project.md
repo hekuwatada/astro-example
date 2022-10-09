@@ -1,4 +1,4 @@
-# How to get started with Astro
+# How to get started with Astro
 This doc is to investigate what we can do with Astro. We've follwed:
 - https://docs.astronomer.io/astro/cli/install-cli
 - https://docs.astronomer.io/astro/create-project
@@ -9,7 +9,7 @@ This doc is to investigate what we can do with Astro. We've follwed:
 brew install astro
 ```
 
-## Step 2. Create an Astro project
+## Step 2. Create an Astro project
 ```
 mkdir <project>
 astro dev init
@@ -58,7 +58,7 @@ We have tried below via the Airflow UI at https://localhost:8080.
 - Manually run [example_dag_basic](http://localhost:8080/dags/example_dag_basic/graph)
 - Manually run [example_dag_advanced](http://localhost:8080/dags/example_dag_advanced/graph)
 
-## Step 5. Write a DAG (WIP)
+## Step 5. Write a DAG (WIP)
 
 https://docs.astronomer.io/astro/astro-python-sdk
 
@@ -80,10 +80,10 @@ astro dev parse
 ```
 astro dev pytest
 ```
-This runs [../tests/dags/test_dag_integrity.py]
+This runs [tests/dags/test_dag_integrity.py](../tests/dags/test_dag_integrity.py)
 
 ## Misc
-#### How to run Airflow CLI
+### How to run Airflow CLI
 ```
 astro dev run <arguments to Airflow CLI>
 ```
@@ -96,11 +96,12 @@ Running: airflow version
 ```
 
 ## Questions
-- How do we see logs from Astro?
-- How do we deploy to a remote/Cloud env?
-- What remote/Cloud env can we have? (eg GKE, etc)
-- What are the differences between Astro and bare Airflow?
-- Can we deploy an Astro projct to Cloud Composer? 
-- Can we use a different Airflow version?
+
+- [ ] How do we see logs from Astro?
+- [ ] How do we deploy to a remote/Cloud env?
+- [ ] What remote/Cloud env can we have? (eg GKE, etc)
+- [ ] What are the differences between Astro and bare Airflow?
+- [ ] Can we deploy an Astro projct to Cloud Composer? 
+- [ ] Can we use a different Airflow version?
 
 
